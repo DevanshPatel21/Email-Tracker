@@ -1,0 +1,33 @@
+<div class="card mb-5">
+    <div class="card-header">
+      <h1 class="text-center mb-0">Email List            
+      <button style="margin-left: 625px; margin-right: -350px;" class="btn btn-primary" (click)="logout()">Logout</button></h1>
+    </div>
+    <div class="card-body">
+      <table class="table table-hover text-center">
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>To</th>
+            <th>Text</th>
+            <th>Track</th>
+            <!-- <th>Action</th> -->
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let visitor of visitors">
+            <td>{{ visitor.Subject }}</td>
+            <td>{{ visitor.To }}</td>
+            <td>{{ visitor.Text }}</td>
+            <td>
+              <button class="btn btn-success mr-2" (click)="fetchEmails(visitor.To)">track</button>
+            </td>
+            <!-- <td>
+              <button class="btn btn-danger mr-2" (click)="deletemail(visitor.To)">Delete</button>
+            </td> -->
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

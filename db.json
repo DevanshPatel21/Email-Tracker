@@ -1,0 +1,31 @@
+{
+  "registered": [
+    {
+      "name": "devansh",
+      "role": "user",
+      "email": "dev@gmail.com",
+      "phone": "9081206577",
+      "password": "*Dev2106#@2003*",
+      "confirmPassword": "*Dev2106#@2003*",
+      "id": 1
+    },
+    {
+      "name": "Devansh",
+      "role": "user",
+      "email": "devanshkpatel21@gmail.com",
+      "phone": "9081206577",
+      "password": "*Dev2106#@2003*",
+      "confirmPassword": "*Dev2106#@2003*",
+      "id": 2
+    },
+    {
+      "name": "Devansh",
+      "role": "user",
+      "email": "dev@gmail.com",
+      "phone": "9081206577",
+      "password": "*Dev@2106*",
+      "confirmPassword": "*Dev@2106*",
+      "id": 3
+    }
+  ]
+}

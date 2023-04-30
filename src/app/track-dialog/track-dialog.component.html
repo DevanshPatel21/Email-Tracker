@@ -1,0 +1,38 @@
+<div class="modal-header">
+  <h4 class="modal-title">Tracking Data</h4>
+  <button type="button" class="close" aria-label="Close" (click)="onNoClick()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <table class="table table-hover text-center">
+    <thead>
+      <tr>
+
+        <th>Email Id</th>
+        <th>Device Type</th>
+        <th>Browser</th>
+        <th>OS</th>
+        <th>User Agent</th>
+        <th>Browser Version</th>
+        <th>OS Version</th>
+        <!-- <th>Ip Address</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{ data[0].emailId }}</td>
+        <td>{{ data[0].deviceType }}</td>
+        <td>{{ data[0].browser }}</td>
+        <td>{{ data[0].os }}</td>
+        <td>{{ data[0].userAgent }}</td>
+        <td>{{ data[0].browser_version }}</td>
+        <td>{{ data[0].os_version }}</td>
+        <!-- <td>{{ data[0].ipAddress }}</td> -->
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-danger" (click)="onNoClick()">Close</button>
+</div>

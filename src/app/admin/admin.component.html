@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+<div class="container">
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h1 class="text-center">Admin Login</h1>
+        </div>
+        <div class="card-body">
+          <form (ngSubmit)="login()" #loginForm="ngForm" class="d-flex flex-column justify-content-center">
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <input type="text" name="username" [(ngModel)]="username" required class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" name="password" [(ngModel)]="password" required class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+          </form>
+          <div *ngIf="errorMessage" class="error-message mt-3">{{ errorMessage }}</div>
+        </div>
+        <div class="text-center mt-4">
+
+          <button class="btn btn-primary mr-3" (click)="register()">Register</button>
+          <button class="btn btn-primary" (click)="userlogin()">User Login</button>
+        </div>
+      </div>
+      </div>
+
+  </div>
+</div>

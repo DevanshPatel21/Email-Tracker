@@ -1,0 +1,133 @@
+{
+  "track-mail": [
+    {
+      "emailId": "hi143423@gmail.com",
+      "deviceType": "desktop",
+      "browser": "Chrome",
+      "os": "Linux",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "browser_version": "112.0.0.0",
+      "os_version": "unknown",
+      "id": 26
+    },
+    {
+      "emailId": "Test@gmail.com",
+      "deviceType": "desktop",
+      "browser": "MS-Edge-Chromium",
+      "os": "Linux",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39",
+      "browser_version": "112.0.1722.39",
+      "os_version": "unknown",
+      "id": 27
+    },
+    {
+      "emailId": "devansh@gmail.com",
+      "deviceType": "desktop",
+      "browser": "Chrome",
+      "os": "Linux",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "browser_version": "112.0.0.0",
+      "os_version": "unknown",
+      "id": 28
+    },
+    {
+      "emailId": "Devansh123@gmail.com",
+      "deviceType": "desktop",
+      "browser": "Chrome",
+      "os": "Linux",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "browser_version": "112.0.0.0",
+      "os_version": "unknown",
+      "id": 29
+    },
+    {
+      "emailId": "edge123@gmail.com",
+      "deviceType": "desktop",
+      "browser": "MS-Edge-Chromium",
+      "os": "Linux",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39",
+      "browser_version": "112.0.1722.39",
+      "os_version": "unknown",
+      "id": 30
+    },
+    {
+      "emailId": "ketan224@gmail.com",
+      "deviceType": "desktop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "browser_version": "112.0.0.0",
+      "os_version": "windows-10",
+      "id": 31
+    },
+    {
+      "emailId": "ketan224@gmail.com",
+      "deviceType": "desktop",
+      "browser": "Firefox",
+      "os": "Windows",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0",
+      "browser_version": "112.0",
+      "os_version": "windows-10",
+      "id": 32
+    },
+    {
+      "emailId": "patel@gmail.com",
+      "deviceType": "desktop",
+      "browser": "MS-Edge-Chromium",
+      "os": "Windows",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64",
+      "browser_version": "112.0.1722.64",
+      "os_version": "windows-10",
+      "id": 33
+    }
+  ],
+  "email-detail": [
+    {
+      "Subject": "Test mail",
+      "To": "ketan224@gmail.com",
+      "Text": "Hello ",
+      "id": 1
+    },
+    {
+      "Subject": "Test mail",
+      "To": "ketan224@gmail.com",
+      "Text": "Hello how are you ?\n",
+      "id": 2
+    },
+    {
+      "Subject": "Hello Test again",
+      "To": "patel@gmail.com",
+      "Text": "Hi There.",
+      "id": 3
+    }
+  ],
+  "registered": [
+    {
+      "name": "harsh Mavani",
+      "role": "user",
+      "email": "harshmmavani21@gnu.ac.in",
+      "phone": "8866993786",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "id": 3
+    },
+    {
+      "name": "Devansh",
+      "role": "user",
+      "email": "Devansh@gmail.com",
+      "phone": "7474747474",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "id": 4
+    },
+    {
+      "name": "devansh",
+      "role": "user",
+      "email": "dev@gmail.com",
+      "phone": "9081206577",
+      "password": "*Dev@2106*",
+      "confirmPassword": "*Dev@2106*",
+      "id": 5
+    }
+  ]
+}
